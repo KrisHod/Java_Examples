@@ -75,7 +75,7 @@ public class Example1 {
         System.out.println("******");
 
         Constructor[] constructors = employeeClass.getConstructors();
-        for(Constructor cons:constructors){
+        for (Constructor cons : constructors) {
             System.out.println("Constructor " + cons.getName() + " has " + cons.getParameterCount() +
                     " parameters, their types are: " + Arrays.toString(cons.getParameterTypes()));
         }
